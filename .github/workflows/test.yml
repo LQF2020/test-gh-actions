@@ -1,7 +1,7 @@
 name: test-github-action
 on: [push]
 jobs:
-  check-bats-version:
+  hello-world:
     runs-on: ubuntu-latest
     steps:
       - run: echo hwllo world
